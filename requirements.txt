@@ -1,0 +1,7 @@
+jax==0.4.31
+jupyterlab==4.2.3
+matplotlib==3.8.4
+pandas==2.2.2
+quadax==0.2.2
+seaborn==0.13.2
+transformers==4.26.1
