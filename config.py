@@ -24,7 +24,7 @@ config_gd_sphere_no_schedule_large_lambda = {
     "d": 400,
     "L": 10,
     "gamma": float(jnp.sqrt(0.5)),
-    "lambd0": 1.0,
+    "lambd0": 0.9,
     "alpha": 1e-3,
     "n_steps": 120_000,
     "log_every": 300,
