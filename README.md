@@ -20,7 +20,7 @@ Install Python 3.9.19 and pip 24.0, then
 pip3 install -r requirements.txt
 ```
 
-## Reproducing the experiments of the paper
+## Reproducing the experiments of the main paper
 
 For the experiments of Section 2 (linear probing in BERT), run the notebook ```linear_probing.ipynb```.
 
@@ -31,3 +31,7 @@ python main.py
 ```
 
 The code takes in total of the order of one hour to run on a standard laptop CPU.
+
+## Reproducing the experiments of Appendix E.3
+
+The code to reproduce these figures is located in the three Jupyter notebooks ```transformer-single-head.ipynb```, ```toy-multihead.ipynb```, and ```transformer-multihead.ipynb```.
